@@ -1,0 +1,81 @@
+html *{
+	font-family: sans-serif;
+	list-style-type: none;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+
+body > * {
+	float:left;
+}
+.biblioteca{
+	background-color: #eff0f1;
+	display: block;
+	height: 100vh;
+	width: 15%;
+
+}
+.header-nav{
+	background-color: #27abde; 
+	box-sizing: border-box; 
+	display: block; width: 100%;
+}
+.header-nav > *{
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	margin: 10px 0;
+}
+.header-nav > p > *{
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	margin: 10px 0;
+}
+.user-info{
+	background-color: #eff0f1;
+	display: block;
+	height: 750px;
+	text-align: center;
+	width: 25%;
+}
+.act-game{
+	color: #474749;
+	width: 60%;
+	height: 80px;
+	background-color: #eff0f1;
+	border-radius: 10px;
+	margin:20px auto;
+	padding: 15px;
+}
+
+.act-game *{
+	color: #474749;
+}
+#container{
+	width:85%;
+}
+#container-profile{
+	width: 75%;
+}
+ul li{
+	margin-bottom: 10px;
+}
+ul li a{
+	text-decoration: none;
+	color:#27abde;
+}
+ul #gato{
+	list-style-image: url('/assets/imgs/gato18.png');
+}
+ul #minas{
+	list-style-image: url('/assets/imgs/bomba18.png');
+}
+ul #space{
+	list-style-image: url('/assets/imgs/space.png');
+}
+ul #snake{
+	list-style-image: url('/assets/imgs/snake.png');
+}

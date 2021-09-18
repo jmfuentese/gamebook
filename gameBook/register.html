@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bienvenido a Gamebook</title>
+	<!--
+	-->
+	<link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+	<div id="nav">
+		<img src="assets/imgs/logo_white.png" alt="logo"><h1 style="color:white; font-size: 55px;">Gamebook</h1>
+	</div>
+	<div id="loginWrap">
+		
+		<form action="register.php" method="POST">
+			<legend>Usuario nuevo</legend>
+			<input id="txtUsername" name="user_name" placeholder="Usuario" type="text" required="required">
+			<br>
+			
+			<input type="password" name="password" placeholder="Contraseña" required="required">
+			<br>
+			<input class="subm" type="submit" value="Guardar">
+			<a href="login.html" style="display: block;"><input class="cancel" type="button" value="Cancelar" onclick=""></a>
+		</form>
+		
+	</div>
+</body>
+</html>

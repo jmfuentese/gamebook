@@ -1,0 +1,13 @@
+.act-game{
+	color: #474749;
+	width: 60%;
+	height: 80px;
+	background-color: #eff0f1;
+	border-radius: 10px;
+	margin:20px auto;
+	padding: 15px;
+}
+
+.act-game *{
+	color: #474749;
+}

@@ -1,0 +1,70 @@
+* {
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#18a3ed;
+}
+body{
+	padding:0;
+	margin:0;
+}
+form > * {
+    margin: 20px 0;
+}
+form > input, a {
+	height: 35px;
+    width: 98%;
+    border: 1px solid #f1f1ff;
+	border-radius: 5px;
+}
+
+.cancel{
+	background-color: red;
+	border-radius: 50px;
+	color: white; 
+	height: 50px;
+	margin:0;
+	width:100%;
+}
+
+.subm{
+	background-color: #18a3ed;
+	border-radius: 50px;
+	color: white; 
+	height: 50px;
+	margin:0;
+}
+
+.reg{
+	border: 2px solid #18a3ed;
+	border-radius: 50px;
+	color: #18a3ed; 
+	height: 50px;
+	margin-top: 5px;
+	text-decoration: none;
+	width:100%;
+}
+
+#loginWrap{
+	border-radius: 10px;
+	color: black;
+	display: block;
+	margin: 250px auto;
+	padding: 15px;
+	width:25%;
+}
+
+#nav{
+	background-color: #18a3ed;
+	height: 150px;
+	width:100%;
+	position:fixed;
+	padding:0;
+	margin:0;
+	top:0;
+	text-align: left;
+}
+
+#nav > img{
+	width: 180px;
+	float:left;
+}

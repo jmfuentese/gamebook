@@ -1,0 +1,27 @@
+.tablero{
+	/*width: 416px;
+	height: 416px;*/					
+	border: 1px solid black;
+	margin-left: 33%;
+	margin-top: 40px;				
+}
+
+.tablero div{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	float: left;
+	background-color: lightgray;				
+	font-size: 30;	
+	text-align: center;
+	line-height: 1;
+	
+}
+
+#contenedorJuego{
+	margin: 30px auto;
+	text-align: center;
+	width: 50%;
+
+
+}
